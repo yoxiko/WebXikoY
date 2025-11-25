@@ -1,0 +1,14 @@
+body { font-family: Arial, sans-serif; margin: 20px; }
+.header { background: #2c3e50; color: white; padding: 20px; border-radius: 5px; }
+.section { margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+.critical { background: #ffebee; border-left: 4px solid #f44336; }
+.high { background: #fff3e0; border-left: 4px solid #ff9800; }
+.medium { background: #fff8e1; border-left: 4px solid #ffc107; }
+.low { background: #f1f8e9; border-left: 4px solid #8bc34a; }
+.vuln-item { padding: 10px; margin: 5px 0; border-radius: 3px; }
+.stats { display: flex; justify-content: space-between; }
+.stat-box { text-align: center; padding: 10px; border-radius: 5px; color: white; }
+.stat-critical { background: #f44336; }
+.stat-high { background: #ff9800; }
+.stat-medium { background: #ffc107; }
+.stat-low { background: #8bc34a; }

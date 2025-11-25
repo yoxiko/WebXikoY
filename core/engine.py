@@ -2,6 +2,11 @@ import asyncio
 import aiohttp
 from typing import List, Dict, Any
 from dataclasses import dataclass
+import sys
+import os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from .config import ConfigManager
 from .security import SecurityManager
 
